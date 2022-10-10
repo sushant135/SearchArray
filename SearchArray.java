@@ -14,9 +14,14 @@ public class SearchArray {
     n[i]=sc.nextInt();
     
      }
-   
+     System.out.print("enter number you want to find: ");
+     int x=sc.nextInt();
+     for(int i=0; i<a;i++){
+        if(n[i]==x){
+        System.out.println(i);
      }  
      
     }
     }
 }
+
